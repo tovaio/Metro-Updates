@@ -1,0 +1,77 @@
+{
+    "metros": [
+        {
+            "name": "CTA 'L'",
+            "city": "Chicago",
+            "lines": [
+                {
+                    "name": "Red Line",
+                    "color": "#b22222",
+                    "keywords": [
+                        "Red"
+                    ]
+                },
+                {
+                    "name": "Blue Line",
+                    "color": "#00008b",
+                    "keywords": [
+                        "Blue"
+                    ]
+                },
+                {
+                    "name": "Brown Line",
+                    "color": "#8b4513",
+                    "keywords": [
+                        "Brown"
+                    ]
+                },
+                {
+                    "name": "Green Line",
+                    "color": "#006400",
+                    "keywords": [
+                        "Green"
+                    ]
+                },
+                {
+                    "name": "Orange Line",
+                    "color": "#ff8c00",
+                    "keywords": [
+                        "Orange"
+                    ]
+                },
+                {
+                    "name": "Purple Line",
+                    "color": "#9400d3",
+                    "keywords": [
+                        "Purple"
+                    ]
+                },
+                {
+                    "name": "Pink Line",
+                    "color": "#ff69b4",
+                    "keywords": [
+                        "Pink"
+                    ]
+                },
+                {
+                    "name": "Yellow Line",
+                    "color": "#ffea00",
+                    "keywords": [
+                        "Yellow"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MTA",
+            "city": "New York City",
+            "lines": [
+                {
+                    "name": "placeholder",
+                    "color": "#ffffff",
+                    "keywords": []
+                }
+            ]
+        }
+    ]
+}
