@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('./fonts/04B30.woff') format('woff'),
+         url('./fonts/04B30.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Helvetica Light';
+    src: url('./fonts/Helvetica-Light.woff') format('woff'),
+         url('./fonts/Helvetica-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Helvetica Ultra Light';
+    src: url('./fonts/Helvetica-UltraLight.woff') format('woff'),
+         url('./fonts/Helvetica-UltraLight.woff2') format('woff2');
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#root {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 2vmin 0 2vmin 0;
+    text-align: center;
+}
+
+#title {
+    font-family: 'Helvetica Light', 'Courier New', Courier, monospace;
+    font-size: 6vmin;
+    position: relative;
+    margin: 0;
+    color: lightgrey;
+    width: auto;
+    display: inline-block;
+    z-index: 2;
+}
+
+#titleTop {
+    position: absolute;
+    margin: 0;
+    color: white;
+    z-index: 3;
+    top: -2px;
+    left: -2px;
+}
+
+#desc {
+    color: #37393b;
+    font-family: 'Helvetica Light', Helvetica, Arial, sans-serif;
+    font-weight: 0;
+    font-size: 3vmin;
+    text-align: center;
+    padding: 1.5vh 15vw 1.5vh 15vw;
+}
+
+.entry {
+    width: 40vmin;
+    height: 5vh;
+    margin: 1vh auto 3vh auto;
+    vertical-align: middle;
+}
+
+.entry > p {
+    color: #37393b;
+    font-family: 'Helvetica Light', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    font-size: 3vmin;
+    width: 25%;
+    text-align: justify;
+}
+
+select {
+    display: inline-block;
+    height: 100%;
+    width: calc(75% - 2vw - 5vh);
+    margin-left: 1vw;
+    border: 0;
+    color: #37393b;
+    font-family: 'Helvetica Light', Helvetica, Arial, sans-serif;
+    font-size: 2vmin;
+}
+
+#metroIcon {
+    float: right;
+    width: 5vh;
+    height: 5vh;
+    object-fit: 'contain';
+    margin: 0;
+}
+
+#lineIcon {
+    float: right;
+    width: 3.5vh;
+    height: 3.5vh;
+    margin: 0.75vh 0.75vh 0.75vh 0;
+    border-radius: 50%;
+}
+
+#tweets {
+    width: auto;
+    margin-left: calc(50% - 250px);
+    display: inline-block;
+}

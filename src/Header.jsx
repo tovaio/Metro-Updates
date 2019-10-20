@@ -1,3 +1,22 @@
+class Title extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <p id='title'>
+                {this.props.children}
+                <p id='titleTop'>
+                    {this.props.children}
+                </p>
+            </p>
+        )
+    }
+
+}
+
 class Header extends React.Component {
 
     constructor(props) {
@@ -6,10 +25,14 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Welcome to Metro Updates!</h1>
-                <p>Stay updated on your commute by viewing recent alerts regarding your favorite metro line!</p>
-            </div>
+            <>
+                <div id='header'>
+                    <Title>metro updates</Title>
+                </div>
+                <p id='desc'>
+                    stay updated on your commute by viewing recent alerts on your preferred metro line!
+                </p>
+            </>
         );
     }
 

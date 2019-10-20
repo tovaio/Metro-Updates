@@ -15,6 +15,12 @@ module.exports = {
                 use: [
                     'babel-loader'
                 ]
+            },
+            {
+                test: /\.(woff|woff2)$/,
+                use: [
+                    'file-loader'
+                ]
             }
         ]
     },

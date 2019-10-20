@@ -3,6 +3,8 @@
         {
             "name": "CTA 'L'",
             "city": "Chicago",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chicago_Transit_Authority_Logo.svg/1024px-Chicago_Transit_Authority_Logo.svg.png",
+            "userId": 342782636,
             "lines": [
                 {
                     "name": "Red Line",
@@ -63,13 +65,230 @@
             ]
         },
         {
-            "name": "MTA",
-            "city": "New York City",
+            "name": "LAM",
+            "city": "Los Angeles",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/LACMTA-Logo.png",
+            "userId": 109696374,
             "lines": [
                 {
-                    "name": "placeholder",
-                    "color": "#ffffff",
-                    "keywords": []
+                    "name": "Blue Line",
+                    "color": "#00008b",
+                    "keywords": [
+                        "blue"
+                    ]
+                },
+                {
+                    "name": "Expo Line",
+                    "color": "#0080ff",
+                    "keywords": [
+                        "expo"
+                    ]
+                },
+                {
+                    "name": "Gold Line",
+                    "color": "#ffd700",
+                    "keywords": [
+                        "gold"
+                    ]
+                },
+                {
+                    "name": "Green Line",
+                    "color": "#006400",
+                    "keywords": [
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Purple Line",
+                    "color": "#9400d3",
+                    "keywords": [
+                        "purple"
+                    ]
+                },
+                {
+                    "name": "Red Line",
+                    "color": "#b22222",
+                    "keywords": [
+                        "red"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Metrorail",
+            "city": "Washington, D.C.",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/WMATA_Metro_Logo.svg/469px-WMATA_Metro_Logo.svg.png",
+            "userId": 1522468057,
+            "lines": [
+                {
+                    "name": "Red Line",
+                    "color": "#b22222",
+                    "keywords": [
+                        "red"
+                    ]
+                },
+                {
+                    "name": "Blue Line",
+                    "color": "#00008b",
+                    "keywords": [
+                        "blue"
+                    ]
+                },
+                {
+                    "name": "Orange Line",
+                    "color": "#ff8c00",
+                    "keywords": [
+                        "Orange"
+                    ]
+                },
+                {
+                    "name": "Yellow Line",
+                    "color": "#ffea00",
+                    "keywords": [
+                        "Yellow"
+                    ]
+                },
+                {
+                    "name": "Green Line",
+                    "color": "#006400",
+                    "keywords": [
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Silver Line",
+                    "color": "#c0c0c0",
+                    "keywords": [
+                        "silver"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MBTA 'T'",
+            "city": "Boston",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/MBTA.svg/500px-MBTA.svg.png",
+            "userId": 150334831,
+            "lines": [
+                {
+                    "name": "Green Line",
+                    "color": "#006400",
+                    "keywords": [
+                        "green"
+                    ]
+                },
+                {
+                    "name": "Orange Line",
+                    "color": "#ff8c00",
+                    "keywords": [
+                        "Orange"
+                    ]
+                },
+                {
+                    "name": "Blue Line",
+                    "color": "#00008b",
+                    "keywords": [
+                        "blue"
+                    ]
+                },
+                {
+                    "name": "Red Line",
+                    "color": "#b22222",
+                    "keywords": [
+                        "red"
+                    ]
+                },
+                {
+                    "name": "Silver Line",
+                    "color": "#c0c0c0",
+                    "keywords": [
+                        "silver"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MTA",
+            "city": "New York",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/MTA_NYC_logo.svg/512px-MTA_NYC_logo.svg.png",
+            "userId": 66379182,
+            "lines": [
+                {
+                    "name": "IND Eighth Avenue Line",
+                    "color": "#2850ad",
+                    "keywords": [
+                        "A", "C", "E"
+                    ]
+                },
+                {
+                    "name": "IND Sixth Avenue Line",
+                    "color": "#ff6319",
+                    "keywords": [
+                        "B", "D", "F", "M"
+                    ]
+                },
+                {
+                    "name": "IND Crosstown Line",
+                    "color": "#6cbe45",
+                    "keywords": [
+                        "G"
+                    ]
+                },
+                {
+                    "name": "BMT Canarsie Line",
+                    "color": "#a7a9ac",
+                    "keywords": [
+                        "L"
+                    ]
+                },
+                {
+                    "name": "BMT Nassau Street Line",
+                    "color": "#996633",
+                    "keywords": [
+                        "J", "Z"
+                    ]
+                },
+                {
+                    "name": "BMT Broadway Line",
+                    "color": "#fccc0a",
+                    "keywords": [
+                        "N", "Q", "R", "W"
+                    ]
+                },
+                {
+                    "name": "IRT Broadway–Seventh Avenue Line",
+                    "color": "#ee352e",
+                    "keywords": [
+                        "1", "2", "3"
+                    ]
+                },
+                {
+                    "name": "IRT Lexington Avenue Line",
+                    "color": "#00933c",
+                    "keywords": [
+                        "4", "5", "6"
+                    ]
+                },
+                {
+                    "name": "IRT Flushing Line",
+                    "color": "#b933ad",
+                    "keywords": [
+                        "7"
+                    ]
+                },
+                {
+                    "name": "IND Second Avenue Line",
+                    "color": "#00add0",
+                    "keywords": [
+                        "T"
+                    ]
+                },
+                {
+                    "name": "Shuttles",
+                    "color": "#808183",
+                    "keywords": [
+                        "S"
+                    ]
                 }
             ]
         }

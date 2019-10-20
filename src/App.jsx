@@ -1,5 +1,6 @@
 import Header from './Header';
 import MetroLineViewer from './MetroLineViewer';
+require('./App.css');
 
 class App extends React.Component {
 

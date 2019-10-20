@@ -13,8 +13,14 @@ class MetroSelector extends React.Component {
             <option key={metroIndex.toString()} value={metroIndex.toString()}>{`${metro['name']} (${metro['city']})`}</option>
         ));
 
+        const metroIconSrc = metros[parseInt(this.props.value)]['icon'];
+
         return (
-            <select value={this.props.value} onChange={(e) => this.props.onChange(e, 'metro')}>{options}</select>
+            <div className='entry'>
+                <p>metro: </p>
+                <select value={this.props.value} onChange={(e) => this.props.onChange(e, 'metro')}>{options}</select>
+                <img id='metroIcon' src={metroIconSrc}/>
+            </div>
         );
     }
 
@@ -34,8 +40,16 @@ class LineSelector extends React.Component {
             <option key={lineIndex.toString()} value={lineIndex.toString()}>{line['name']}</option>
         ));
 
+        const iconStyle = {
+            backgroundColor: lines[parseInt(this.props.value)]['color']
+        };
+
         return (
-            <select value={this.props.value} onChange={(e) => this.props.onChange(e, 'line')}>{options}</select>
+            <div className='entry'>
+                <p>line: </p>
+                <select value={this.props.value} onChange={(e) => this.props.onChange(e, 'line')}>{options}</select>
+                <div id='lineIcon' style={iconStyle}></div>
+            </div>
         );
     }
 
@@ -60,20 +74,17 @@ class MetroLineFilter extends React.Component {
             this.setState({
                 line: '0'
             });
+            this.props.onChange(e.target.value, '0');
+        } else {
+            this.props.onChange(this.state.metro, e.target.value);
         }
-    }
-
-    handleSubmit = (e) => {
-        alert(`Filtering by metro ${this.state.metro} and line ${this.state.line}!`);
-        e.preventDefault();
     }
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form id='metroLineFilter'>
                 <MetroSelector value={this.state.metro} onChange={this.handleChange}/>
                 <LineSelector metro={this.state.metro} value={this.state.line} onChange={this.handleChange}/>
-                <input type='submit' value='Filter!' />
             </form>
         )
     }

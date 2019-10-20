@@ -8,20 +8,22 @@ class MetroLineViewer extends React.Component {
     }
 
     state = {
-        filterQuery: null
+        metroIndex: '0',
+        lineIndex: '0'
     };
 
-    handleSubmit = (filterQuery) => {
+    handleChange = (metro, line) => {
         this.setState({
-            filterQuery: filterQuery
+            metroIndex: metro,
+            lineIndex: line
         });
     }
 
     render() {
         return (
             <div>
-                <MetroLineFilter onSubmit={this.handleSubmit}/>
-                <MetroLineFeed filterQuery={this.state.filterQuery}/>
+                <MetroLineFilter onChange={this.handleChange} />
+                <MetroLineFeed metroIndex={this.state.metroIndex} lineIndex={this.state.lineIndex} />
             </div>
         );
     }
