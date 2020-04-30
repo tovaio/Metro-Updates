@@ -38,7 +38,7 @@
     "browser-request": "^0.3.3",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-tweet-embed": "^1.2.2",
